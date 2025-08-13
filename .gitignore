@@ -1,0 +1,21 @@
+# Compiled output
+/target/
+
+# Cargo specific
+Cargo.lock
+
+# Backup and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.idea/
+.vscode/
+*.iml

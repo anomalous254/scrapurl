@@ -1,0 +1,22 @@
+[package]
+name = "scrapurl"
+version = "0.1.0"
+edition = "2024"
+
+# Metadata for crates.io & GitHub
+authors = ["Nayndo <anomalous254@example.com>"]
+description = "A colorful Rust CLI tool to scrape and list all links from a given webpage."
+license = "MIT"
+repository = "https://github.com/anomalous254/scrapurl"
+homepage = "https://github.com/anomalous254/scrapurl"
+documentation = "https://docs.rs/scrapurl"
+readme = "README.md"
+keywords = ["scraper", "cli", "links", "rust", "web"]
+categories = ["command-line-utilities", "web-programming"]
+
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = "0.12"
+scraper = "0.19"   # HTML parser
+colored = "3.0.0"
